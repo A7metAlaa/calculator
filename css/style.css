@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(256px);;
+}   
+
+
+.main button {
+    display: flex;
+    flex-direction: row;
+    width:20%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+    line-height: 1.8;    
+    margin-top: 10px;    
+    margin-right: 10px;
+    
+}
+.myInput {
+    transform: translate( 393px,239px);
+    width: 28%;
+
+}
+
+body{
+    background-image: url(../images/retina_wood.png);
+}
